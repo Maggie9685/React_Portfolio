@@ -1,6 +1,6 @@
 import React from 'react';
 
-function NavTabs({ currentPage, handlePageChange }) {
+function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs justify-content-end">
       <div className="container-fluid fs-1 ">
@@ -52,4 +52,4 @@ function NavTabs({ currentPage, handlePageChange }) {
   );
 }
 
-export default NavTabs;
+export default Navigation;
