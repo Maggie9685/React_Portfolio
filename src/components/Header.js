@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Porfolio from './pages/Porfolio';
 import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import Resume from './Resume';
 import Footer from './Footer';
 
 export default function Header() {
@@ -29,7 +29,7 @@ export default function Header() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="mainpage">
       <div>
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}

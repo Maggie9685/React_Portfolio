@@ -1,0 +1,80 @@
+main {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 50px 30px;
+
+}
+
+:root {
+  --darker: #111111;
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+
+  --darkgreen: #283618;
+  --lightgreen: #606C38;
+  --darkburn: #BC6C25;
+  --lightburn: #DDA15E;
+  --cream: #FEFAE0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+  color: var(--darkgreen);
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
