@@ -87,7 +87,19 @@ p {
   font: sans-serif;
 }
 
-.text-nav:hover {
+.resume-p {
+  margin: auto 30%;
+  --bs-text-opacity: 1;
+  padding: 3px 6px 7px 6px;
+  color: var(--cream);
+  background: var(--darkburn);
+  border-radius: 15px;
+  font: sans-serif;
+  text-align: center;
+}
+
+.text-nav:hover,
+.resume-p:hover {
   --bs-text-opacity: 1;
   color: var(--cream);
   background: var(--darkgreen);
@@ -102,6 +114,7 @@ p {
   background-size: cover;
   background-position: 50%;
 }
+
 .mainContent{
   padding-bottom: 2.5rem; 
 }
@@ -116,6 +129,15 @@ footer svg:hover {
 
 .work svg {
   color: white;
+}
+
+.resume {
+  margin: 5% auto;
+  width: 80%;
+}
+
+.resume a {
+  color: var(--darkgreen);
 }
 
 .work svg:hover {

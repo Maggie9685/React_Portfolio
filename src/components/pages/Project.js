@@ -1,4 +1,10 @@
 import React, { useState } from 'react';
+import Picture from '../../assets/EmployeeTracker.jpg';
+import Picture1 from '../../assets/NoteTaker.jpg';
+import Picture2 from '../../assets/SocialNetworkAPI.jpg';
+import Picture3 from '../../assets/WalknSpot.JPG';
+import Picture4 from '../../assets/WeatherandRealEstate.png';
+import Picture5 from '../../assets/WorkDayScheduler.jpg';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
