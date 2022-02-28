@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 
 function validateEmail(email) {
   var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -43,38 +41,28 @@ function Contact() {
 
   return (
     <section>
-      <h1 data-testid="h1tag">Contact</h1>
-    
-      <Form>
-        <div className="row">
-          <Form.Group className="col-12" controlId="formGridName" onSubmit={handleSubmit}>
-            <Form.Label>Name</Form.Label>
-            <Form.Control type="text" placeholder="Name" defaultValue={name} onBlur={handleChange} />
-          </Form.Group>
-
-          <Form.Group className="col-12" controlId="formGridEmail">
-            <Form.Label>Email</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" defaultValue={email} onBlur={handleChange} />
-          </Form.Group>
-
-          <Form.Group className="col-12" controlId="formGridMessage">
-            <Form.Label>Message</Form.Label>
-            <Form.Control type="text" placeholder="Messages" defaultValue={message} onBlur={handleChange}/>
-          </Form.Group>
-        
-
-        {errorMessage && (
-                <div className="col-12">
-                  <p className="error-text">{errorMessage}</p>
-                </div>
-        )}
-
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
+      <h1 data-testid="h1tag">Contact me</h1>
+      <form id="contact-form" className="center" onSubmit={handleSubmit}>
+        <div class="mb-3">
+          <label htmlFor="name" class="form-label">Name:</label>
+          <input type="text" name="name" class="form-control" defaultValue={name} onBlur={handleChange} />
         </div>
-      </Form>
-  </section>
+        <div class="mb-3">
+          <label htmlFor="email" class="form-label">Email address:</label>
+          <input type="email" name="email" class="form-control" defaultValue={email} onBlur={handleChange} />
+        </div>
+        <div class="mb-3">
+          <label htmlFor="message" class="form-label">Message:</label>
+          <textarea name="message" class="form-control" rows="5" defaultValue={message} onBlur={handleChange} />
+        </div>
+        {errorMessage && (
+          <div class="mb-3">
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+        <button class="mb-3 d-flex justify-content-center" data-testid="button" type="submit">Submit</button>
+      </form>
+    </section>
   );
 }
 

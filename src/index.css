@@ -2,7 +2,7 @@ main {
   margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
-
+  
 }
 
 :root {
@@ -12,7 +12,7 @@ main {
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
 
-  --darkgreen: #283618;
+  --darkgreen: rgb(40, 54, 24);
   --lightgreen: #606C38;
   --darkburn: #BC6C25;
   --lightburn: #DDA15E;
@@ -43,7 +43,6 @@ h3,
 h4,
 h5,
 h6 {
-  
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -78,3 +77,103 @@ p {
   font-size: 1.1rem;
   margin-top: 0;
 }
+
+.text-nav {
+  --bs-text-opacity: 1;
+  padding: 3px 6px 7px 6px;
+  color: var(--cream);
+  background: var(--darkburn);
+  border-radius: 15px;
+  font: sans-serif;
+}
+
+.text-nav:hover {
+  --bs-text-opacity: 1;
+  color: var(--cream);
+  background: var(--darkgreen);
+}
+
+.bg-nav {
+  background-color: var(--darkgreen);
+}
+
+.bg-special {
+  background-image: url("./assets/trees.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+.mainContent{
+  padding-bottom: 2.5rem; 
+}
+
+footer svg {
+  color: var(--darkburn);
+}
+
+footer svg:hover {
+  color: var(--lightburn);
+}
+
+.work svg {
+  color: white;
+}
+
+.work svg:hover {
+  color: var(--lightburn);
+}
+
+form label,
+form p,
+form button {
+  color: var(--lightburn);
+  font: sans-serif;
+}
+
+form button {
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.aboutP {
+  color: var(--cream);
+  font: sans-serif;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+.center {
+  background: var(--darkgreen);
+  margin: auto;
+  width: 80%;
+  border: 3px solid var(--darkgreen);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(40, 54, 24, 0.6);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+@media screen and (max-width: 575px) {
+  .container .overlay {
+    opacity: 1;
+  }
+  
+
+}
+

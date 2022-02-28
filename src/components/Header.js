@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navigation from './Navigation';
 import Home from './pages/Home';
 import About from './pages/About';
-import Porfolio from './pages/Porfolio';
+import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Resume from './Resume';
 import Footer from './Footer';
@@ -17,8 +17,8 @@ export default function Header() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Porfolio') {
-      return <Porfolio />;
+    if (currentPage === 'Project') {
+      return <Project />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <div className="mainpage">
-      <div>
+      <div className="mainContent">
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
       </div>
