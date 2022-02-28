@@ -19,39 +19,39 @@ const Project = ({ category }) => {
       name: 'Weather and Real Estate',
       GitHub: 'https://github.com/Maggie9685/weather-and-real-estate',
       Website: 'https://samvauclain.github.io/weather-and-real-estate/',
-      picture: 'static/media/WalknSpot.6aa9a7d9853bdf92f187.JPG',
+      picture: '../../assets/WeatherandRealEstate.png',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'Look up property for sale and city weather forcast with a simple search.'
     },
     {
-      name: 'Building exterior',
-      GitHub: 'commercial',
-      Website: 'commercial',
-      picture: 'static/media/WalknSpot.6aa9a7d9853bdf92f187.JPG',
+      name: 'Employee Tracker',
+      GitHub: 'https://github.com/Maggie9685/Employee_Tracker',
+      Website: 'https://watch.screencastify.com/v/XyHf9Yj6ZJsQBKuXH6NV',
+      picture: '../../assets/EmployeeTracker.jpg',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'This app can help company manage their employee and track their salaries using MySQL.'
     },
     {
-      name: 'Restaurant table',
-      GitHub: 'commercial',
-      Website: 'commercial',
-      picture: 'static/media/WalknSpot.6aa9a7d9853bdf92f187.JPG',
+      name: 'Note Taker',
+      GitHub: 'https://github.com/Maggie9685/Note-Taker',
+      Website: 'https://afternoon-taiga-66988.herokuapp.com/',
+      picture: '../../assets/NoteTaker.jpg',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'The purpose for this app is to provide a simple note taking and saving tool for everyone.'
     },
     {
-      name: 'Cafe interior',
-      GitHub: 'commercial',
-      Website: 'commercial',
-      picture: 'static/media/WalknSpot.6aa9a7d9853bdf92f187.JPG',
+      name: 'Social Network API',
+      GitHub: 'https://watch.screencastify.com/v/13sMK65qaYoRgjgEbPhI',
+      Website: 'https://github.com/Maggie9685/Social_Network_API',
+      picture: '../../assets/SocialNetworkAPI.jpg',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'This API helps user to handle large amounts of unstructured data. The database is handle in Insomnia. User would be able to add, update, and delete data. User can also create, update and delete relationship between data as well.'
     },
     {
-      name: 'Cat green eyes',
-      GitHub: 'commercial',
-      Website: 'commercial',
-      picture: 'static/media/WalknSpot.6aa9a7d9853bdf92f187.JPG',
+      name: 'Work Day Scheduler',
+      GitHub: 'https://github.com/Maggie9685/Work-Day-Scheduler',
+      Website: 'https://maggie9685.github.io/Work-Day-Scheduler/',
+      picture: '../../assets/WorkDayScheduler.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     }
