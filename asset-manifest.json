@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.97f5adcd.css",
-    "main.js": "/React_Portfolio/static/js/main.4920d13f.js",
+    "main.css": "/React_Portfolio/static/css/main.53d54a2a.css",
+    "main.js": "/React_Portfolio/static/js/main.88a4145c.js",
     "static/media/trees.jpg": "/React_Portfolio/static/media/trees.bdc93e85aca74a2db2f7.jpg",
     "static/media/WeatherandRealEstate.png": "/React_Portfolio/static/media/WeatherandRealEstate.589e00fe287891ce3c48.png",
     "static/media/profile.jpg": "/React_Portfolio/static/media/profile.17ed554e5f7f59cd30e9.jpg",
@@ -11,11 +11,11 @@
     "static/media/EmployeeTracker.jpg": "/React_Portfolio/static/media/EmployeeTracker.c62043d5e152889661d1.jpg",
     "static/media/NoteTaker.jpg": "/React_Portfolio/static/media/NoteTaker.61dbad8435a70b37c5f7.jpg",
     "index.html": "/React_Portfolio/index.html",
-    "main.97f5adcd.css.map": "/React_Portfolio/static/css/main.97f5adcd.css.map",
-    "main.4920d13f.js.map": "/React_Portfolio/static/js/main.4920d13f.js.map"
+    "main.53d54a2a.css.map": "/React_Portfolio/static/css/main.53d54a2a.css.map",
+    "main.88a4145c.js.map": "/React_Portfolio/static/js/main.88a4145c.js.map"
   },
   "entrypoints": [
-    "static/css/main.97f5adcd.css",
-    "static/js/main.4920d13f.js"
+    "static/css/main.53d54a2a.css",
+    "static/js/main.88a4145c.js"
   ]
 }
