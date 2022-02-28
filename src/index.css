@@ -129,6 +129,12 @@ form button {
   font: sans-serif;
 }
 
+.img-work {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
 form button {
   margin: auto;
   width: 30%;

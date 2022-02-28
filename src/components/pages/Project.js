@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-//import Picture from '../../assets/WalknSpot.JPG';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
@@ -19,7 +18,7 @@ const Project = ({ category }) => {
       name: 'Weather and Real Estate',
       GitHub: 'https://github.com/Maggie9685/weather-and-real-estate',
       Website: 'https://samvauclain.github.io/weather-and-real-estate/',
-      picture: '../../assets/WeatherandRealEstate.png',
+      picture: 'static/media/WeatherandRealEstate.589e00fe287891ce3c48.png',
       description:
         'Look up property for sale and city weather forcast with a simple search.'
     },
@@ -27,7 +26,7 @@ const Project = ({ category }) => {
       name: 'Employee Tracker',
       GitHub: 'https://github.com/Maggie9685/Employee_Tracker',
       Website: 'https://watch.screencastify.com/v/XyHf9Yj6ZJsQBKuXH6NV',
-      picture: '../../assets/EmployeeTracker.jpg',
+      picture: 'static/media/EmployeeTracker.c62043d5e152889661d1.jpg',
       description:
         'This app can help company manage their employee and track their salaries using MySQL.'
     },
@@ -35,7 +34,7 @@ const Project = ({ category }) => {
       name: 'Note Taker',
       GitHub: 'https://github.com/Maggie9685/Note-Taker',
       Website: 'https://afternoon-taiga-66988.herokuapp.com/',
-      picture: '../../assets/NoteTaker.jpg',
+      picture: 'static/media/NoteTaker.61dbad8435a70b37c5f7.jpg',
       description:
         'The purpose for this app is to provide a simple note taking and saving tool for everyone.'
     },
@@ -43,7 +42,7 @@ const Project = ({ category }) => {
       name: 'Social Network API',
       GitHub: 'https://watch.screencastify.com/v/13sMK65qaYoRgjgEbPhI',
       Website: 'https://github.com/Maggie9685/Social_Network_API',
-      picture: '../../assets/SocialNetworkAPI.jpg',
+      picture: 'static/media/SocialNetworkAPI.d478e29d10a9f578aaab.jpg',
       description:
         'This API helps user to handle large amounts of unstructured data. The database is handle in Insomnia. User would be able to add, update, and delete data. User can also create, update and delete relationship between data as well.'
     },
@@ -51,7 +50,7 @@ const Project = ({ category }) => {
       name: 'Work Day Scheduler',
       GitHub: 'https://github.com/Maggie9685/Work-Day-Scheduler',
       Website: 'https://maggie9685.github.io/Work-Day-Scheduler/',
-      picture: '../../assets/WorkDayScheduler.jpg',
+      picture: 'static/media/WorkDayScheduler.8e645bcdc420d0af4a1d.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     }
@@ -64,7 +63,7 @@ const Project = ({ category }) => {
         {currentPhotos.map((image, i) => (
             <Col key={image.name}>
             <Card className="bg-dark text-white container">
-              <Card.Img src={image.picture} alt={image.name}/>
+              <Card.Img src={image.picture} alt={image.name} className="img-work"/>
               <Card.ImgOverlay className='mask overlay'>
                   <Card.Title>{image.name}</Card.Title>
                   <Card.Text class="text-truncate">
