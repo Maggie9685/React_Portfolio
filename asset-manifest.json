@@ -1,16 +1,20 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.e45dfe51.css",
-    "main.js": "/React_Portfolio/static/js/main.8ac42e02.js",
+    "main.js": "/React_Portfolio/static/js/main.bc7b1a52.js",
     "static/media/trees.jpg": "/React_Portfolio/static/media/trees.bdc93e85aca74a2db2f7.jpg",
+    "static/media/WeatherandRealEstate.png": "/React_Portfolio/static/media/WeatherandRealEstate.589e00fe287891ce3c48.png",
     "static/media/profile.jpg": "/React_Portfolio/static/media/profile.17ed554e5f7f59cd30e9.jpg",
-    "static/media/WorkDayScheduler.jpg": "/React_Portfolio/static/media/WorkDayScheduler.8e645bcdc420d0af4a1d.jpg",
+    "static/media/WalknSpot.JPG": "/React_Portfolio/static/media/WalknSpot.6aa9a7d9853bdf92f187.JPG",
+    "static/media/SocialNetworkAPI.jpg": "/React_Portfolio/static/media/SocialNetworkAPI.d478e29d10a9f578aaab.jpg",
+    "static/media/EmployeeTracker.jpg": "/React_Portfolio/static/media/EmployeeTracker.c62043d5e152889661d1.jpg",
+    "static/media/NoteTaker.jpg": "/React_Portfolio/static/media/NoteTaker.61dbad8435a70b37c5f7.jpg",
     "index.html": "/React_Portfolio/index.html",
     "main.e45dfe51.css.map": "/React_Portfolio/static/css/main.e45dfe51.css.map",
-    "main.8ac42e02.js.map": "/React_Portfolio/static/js/main.8ac42e02.js.map"
+    "main.bc7b1a52.js.map": "/React_Portfolio/static/js/main.bc7b1a52.js.map"
   },
   "entrypoints": [
     "static/css/main.e45dfe51.css",
-    "static/js/main.8ac42e02.js"
+    "static/js/main.bc7b1a52.js"
   ]
 }
