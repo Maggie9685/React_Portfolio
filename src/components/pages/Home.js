@@ -6,7 +6,7 @@ import Contact from './Contact';
 export default function Home() {
   return (
     <div className="text-center">
-      <h1 className="main-title">Let's coding!</h1>
+      <h1 className="main-title">Let's start coding!</h1>
       <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
