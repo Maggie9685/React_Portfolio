@@ -78,6 +78,15 @@ p {
   margin-top: 0;
 }
 
+.main-title {
+  border: 5px solid var(--darkburn);
+  background-color: var(--darkburn);
+  padding: 20px;
+  color: var(--cream);
+  text-shadow: 5px 5px var(--lightburn);
+
+}
+
 .text-nav {
   --bs-text-opacity: 1;
   padding: 3px 6px 7px 6px;
@@ -85,6 +94,7 @@ p {
   background: var(--darkburn);
   border-radius: 15px;
   font: sans-serif;
+  text-shadow: 2px 2px var(--lightburn);
 }
 
 .resume-p {
@@ -96,6 +106,10 @@ p {
   border-radius: 15px;
   font: sans-serif;
   text-align: center;
+}
+
+ul {
+  list-style-type:none;
 }
 
 .NoshUp,

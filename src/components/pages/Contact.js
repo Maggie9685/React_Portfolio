@@ -40,8 +40,8 @@ function Contact() {
   };
 
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+    <section className="text-center">
+      <h1 className="main-title">Contact me</h1>
       <form id="contact-form" className="center" onSubmit={handleSubmit}>
         <div class="mb-3">
           <label htmlFor="name" class="form-label">Name:</label>

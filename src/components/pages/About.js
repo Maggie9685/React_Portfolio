@@ -3,8 +3,8 @@ import coverImage from '../../assets/profile.jpg';
 
 export default function About() {
   return (
-    <div>
-      <h1>About Me</h1>
+    <div className="text-center">
+      <h1 className="main-title">About Me</h1>
       <div className="center">
         <img src={coverImage} className="img-fluid rounded-circle mx-auto d-block mb-3" style={{ width: "40%" }} alt="cover" />
         <p className="aboutP"> 
