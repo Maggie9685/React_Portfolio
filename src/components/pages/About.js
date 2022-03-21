@@ -6,20 +6,13 @@ export default function About() {
     <div>
       <h1>About Me</h1>
       <div className="center">
-        <img src={coverImage} className="img-fluid rounded-circle mx-auto d-block mb-3" style={{ width: "50%" }} alt="cover" />
-        <p className="aboutP">
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.  
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        <img src={coverImage} className="img-fluid rounded-circle mx-auto d-block mb-3" style={{ width: "40%" }} alt="cover" />
+        <p className="aboutP"> 
+          Trying to find out reason of code not functioning properly is tiring, but it 
+          is also satisifying when seeing these lines of code turns out to be something 
+          cool like website for local business/communities or application to simpify daily task.
+          learning web development is the best decision I have ever made. It is fun and challenging. 
+          And I would love to make more cool website and application!
         </p>
       </div>
     </div>

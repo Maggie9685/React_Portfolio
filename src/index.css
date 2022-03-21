@@ -98,6 +98,44 @@ p {
   text-align: center;
 }
 
+.NoshUp,
+.WalknSpot,
+.WeatherandRealEstate,
+.EmployeeTracker,
+.NoteTaker,
+.SocialNetworkAPI,
+.WorkDayScheduler
+ {
+  margin: auto;
+  padding: 30% 40%;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: initial;
+  background-origin: padding-box;
+}
+
+.NoshUp {
+  background-image: url("./assets/NoshUp.JPG");
+}
+.WalknSpot {
+  background-image: url("./assets/WalknSpot.JPG");
+}
+.WeatherandRealEstate {
+  background-image: url("./assets/WeatherandRealEstate.png");
+}
+.EmployeeTracker {
+  background-image: url("./assets/EmployeeTracker.jpg");
+}
+.NoteTaker {
+  background-image: url("./assets/NoteTaker.jpg");
+}
+.SocialNetworkAPI {
+  background-image: url("./assets/SocialNetworkAPI.jpg");
+}
+.WorkDayScheduler {
+  background-image: url("./assets/WorkDayScheduler.jpg");
+}
+
 .text-nav:hover,
 .resume-p:hover {
   --bs-text-opacity: 1;

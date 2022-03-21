@@ -1,10 +1,4 @@
 import React, { useState } from 'react';
-import Picture from '../../assets/EmployeeTracker.jpg';
-import Picture1 from '../../assets/NoteTaker.jpg';
-import Picture2 from '../../assets/SocialNetworkAPI.jpg';
-import Picture3 from '../../assets/WalknSpot.JPG';
-import Picture4 from '../../assets/WeatherandRealEstate.png';
-import Picture5 from '../../assets/WorkDayScheduler.jpg';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
@@ -13,10 +7,18 @@ const Project = ({ category }) => {
 
   const [photos] = useState([
     {
+      name: "Nosh Up",
+      GitHub: 'https://github.com/Maggie9685/Nosh-Up',
+      Website: 'http://nosh-up.herokuapp.com/',
+      picture: 'NoshUp',
+      description:
+        "Have you ever wanted to go for a hike and see some animals? Try Walk'n Spot! Search for trails in your city and narrow the list by animals you would like to see or avoid, then get a list of trails. Did you see a new animal on your hike? Log into your account to add your own sightings and save your favorite trails. "
+    },
+    {
       name: "Walk'n Spot",
       GitHub: 'https://github.com/Maggie9685/Walk-n-Spot',
       Website: 'https://walk-n-spot.herokuapp.com/',
-      picture: 'static/media/WalknSpot.6aa9a7d9853bdf92f187.JPG',
+      picture: 'WalknSpot',
       description:
         "Have you ever wanted to go for a hike and see some animals? Try Walk'n Spot! Search for trails in your city and narrow the list by animals you would like to see or avoid, then get a list of trails. Did you see a new animal on your hike? Log into your account to add your own sightings and save your favorite trails. "
     },
@@ -24,7 +26,7 @@ const Project = ({ category }) => {
       name: 'Weather and Real Estate',
       GitHub: 'https://github.com/Maggie9685/weather-and-real-estate',
       Website: 'https://samvauclain.github.io/weather-and-real-estate/',
-      picture: 'static/media/WeatherandRealEstate.589e00fe287891ce3c48.png',
+      picture: 'WeatherandRealEstate',
       description:
         'Look up property for sale and city weather forcast with a simple search.'
     },
@@ -32,7 +34,7 @@ const Project = ({ category }) => {
       name: 'Employee Tracker',
       GitHub: 'https://github.com/Maggie9685/Employee_Tracker',
       Website: 'https://watch.screencastify.com/v/XyHf9Yj6ZJsQBKuXH6NV',
-      picture: 'static/media/EmployeeTracker.c62043d5e152889661d1.jpg',
+      picture: 'EmployeeTracker',
       description:
         'This app can help company manage their employee and track their salaries using MySQL.'
     },
@@ -40,7 +42,7 @@ const Project = ({ category }) => {
       name: 'Note Taker',
       GitHub: 'https://github.com/Maggie9685/Note-Taker',
       Website: 'https://afternoon-taiga-66988.herokuapp.com/',
-      picture: 'static/media/NoteTaker.61dbad8435a70b37c5f7.jpg',
+      picture: 'NoteTaker',
       description:
         'The purpose for this app is to provide a simple note taking and saving tool for everyone.'
     },
@@ -48,7 +50,7 @@ const Project = ({ category }) => {
       name: 'Social Network API',
       GitHub: 'https://watch.screencastify.com/v/13sMK65qaYoRgjgEbPhI',
       Website: 'https://github.com/Maggie9685/Social_Network_API',
-      picture: 'static/media/SocialNetworkAPI.d478e29d10a9f578aaab.jpg',
+      picture: 'SocialNetworkAPI',
       description:
         'This API helps user to handle large amounts of unstructured data. The database is handle in Insomnia. User would be able to add, update, and delete data. User can also create, update and delete relationship between data as well.'
     },
@@ -56,7 +58,7 @@ const Project = ({ category }) => {
       name: 'Work Day Scheduler',
       GitHub: 'https://github.com/Maggie9685/Work-Day-Scheduler',
       Website: 'https://maggie9685.github.io/Work-Day-Scheduler/',
-      picture: 'static/media/WorkDayScheduler.8e645bcdc420d0af4a1d.jpg',
+      picture: 'WorkDayScheduler',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     }
@@ -69,7 +71,7 @@ const Project = ({ category }) => {
         {currentPhotos.map((image, i) => (
             <Col key={image.name}>
             <Card className="bg-dark text-white container">
-              <Card.Img src={image.picture} alt={image.name} className="img-work"/>
+              <Card.Img className={image.picture}/>
               <Card.ImgOverlay className='mask overlay'>
                   <Card.Title>{image.name}</Card.Title>
                   <Card.Text class="text-truncate">
